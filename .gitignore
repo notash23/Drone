@@ -2,6 +2,5 @@
 
 flying/resources/
 
-model/preprocessing/labelimg/
 model/training/nvvm/
 model/training/Tensorflow/

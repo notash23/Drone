@@ -100,7 +100,7 @@ def init_pid_controller():
     slider = ttk.Scale(
         root,
         from_=0,
-        to=0.2,
+        to=1,
         orient='horizontal',
         variable=k_p
     )
@@ -132,7 +132,7 @@ def init_pid_controller():
     slider = ttk.Scale(
         root,
         from_=0,
-        to=0.2,
+        to=1,
         orient='horizontal',
         variable=k_i
     )
@@ -163,7 +163,7 @@ def init_pid_controller():
     slider = ttk.Scale(
         root,
         from_=0,
-        to=0.2,
+        to=1,
         orient='horizontal',
         variable=k_d
     )
